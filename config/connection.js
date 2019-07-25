@@ -18,4 +18,4 @@ var connection = mysql.createConnection({
 
 });
 
-module.exports = connection; ///is this right???
+module.exports = connection; ///is this right??? YES!
