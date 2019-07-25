@@ -60,7 +60,7 @@ const orm = {
     update: function (table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
 
-        queryString += " SET " + objToSql(objColVals)
+        queryString += " SET " + objToSql(objColVals);
         queryString += " WHERE " + condition;
 
         console.log(queryString);
